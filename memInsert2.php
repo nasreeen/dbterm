@@ -27,7 +27,8 @@ else{
 	$result=mysqli_query($mysqli, $sql);
 	
 	echo "<script>alert(\"Success!!!!\");</script>";
-	echo "<script>location.href='home.php'</script>";
+	echo "<script>location.href='home.php'</script><br>";
+	
 	}
 	
 }
